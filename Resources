@@ -171,3 +171,7 @@ class MCSimulation:
         ci_series = self.confidence_interval
         ci_series.index = ["95% CI Lower","95% CI Upper"]
         return metrics.append(ci_series)
+
+
+btc_url = "https://api.alternative.me/v2/ticker/Bitcoin/?convert=CAD"
+eth_url = "https://api.alternative.me/v2/ticker/Ethereum/?convert=CAD"
